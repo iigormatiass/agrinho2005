@@ -2,11 +2,11 @@
 
 
 :root {
---primary-color: #026773;
---secondary-color: #3CA6A6;
---text-color: #024959;
---background-color: #F2E3D5;
---button-hover: #012E40;
+--primary-color: #656a6a;
+--secondary-color: #0bdfdf;
+--text-color: #070909;
+--background-color: #da6900;
+--button-hover: #2ca0ce;
 --font-body: "Chocolate Classical Sans", serif;
 --font-titulo: "Rakkas", serif;
 }
@@ -59,9 +59,9 @@ max-width: 800px;
 text-align: center;
 margin-bottom: 20px;
 padding: 20px;
-background-color: #ffffff;
+background-color: #430202;
 border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 5px rgb(236, 71, 71);
 }
 
 
@@ -93,11 +93,11 @@ width: 100%;
 
 
 .conteudo {
-background-color: white;
+background-color: rgb(112, 11, 11);
 padding: 20px;
 margin: 20px 0;
 border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+box-shadow: 0 2px 5px rgba(45, 199, 10, 0.1);
 text-align: left;
 }
 
@@ -107,7 +107,7 @@ display: inline-block;
 margin-top: 20px;
 padding: 10px 15px;
 background-color: var(--primary-color);
-color: white;
+color: rgb(0, 0, 0);
 text-decoration: none;
 border-radius: 5px;
 transition: background-color 0.3s ease;
